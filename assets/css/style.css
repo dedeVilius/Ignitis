@@ -95,6 +95,7 @@ body {
     background-size: 21px 21px;
     width: 21px;
     height: 21px;
+    top: -1px;
   }
 }
 .main-wrapper .container section.top .tips-list ul :last-child, .main-wrapper .container section.features .tips-list ul :last-child, .main-wrapper .container section.tips .tips-list ul :last-child {
