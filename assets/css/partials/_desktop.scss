@@ -68,7 +68,8 @@
 
                         & li {
                             font-weight: 600;
-                            padding: 0 0 15px 0;
+                            padding: 0 0 15px 15px;
+                            position: relative;
 
                             & a {
                                 font-size: 1.6rem;
@@ -81,14 +82,25 @@
                             }
 
                             &::before {
-                                content: url(../../assets/img/icon\ -\ arrow-right.svg);
-                                vertical-align: middle;
-                                padding: 0 10px 0 0;
+                                content: '';
+                                background-image: url(../../assets/img/icon\ -\ arrow-right.svg);
+                                background-size: 24px 24px;
+                                position: absolute;
+                                top: -3px;
+                                left: 0px;
+                                width: 24px;
+                                height: 24px;
+
+                                @media screen and (max-width: 356px) {
+                                    background-size: 21px 21px;
+                                    width: 21px;
+                                    height: 21px;
+                                  }
                             }
                         }
 
                         & :last-child {
-                            padding: 0;
+                            padding: 0 0 0 15px;
                         }
                     }
                 }
