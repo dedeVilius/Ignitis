@@ -74,10 +74,14 @@
                                 font-size: 1.6rem;
                                 text-decoration: none;
                                 color: #4057E3;
+
+                                @media screen and (max-width: 356px) {
+                                    font-size: 1.3rem;
+                                  }
                             }
 
                             &::before {
-                                content: url(/assets/img/icon\ -\ arrow-right.svg);
+                                content: url(../img/icon\ -\ arrow-right.svg);
                                 vertical-align: middle;
                                 padding: 0 10px 0 0;
                             }

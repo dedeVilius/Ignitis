@@ -74,8 +74,13 @@ body {
   text-decoration: none;
   color: #4057E3;
 }
+@media screen and (max-width: 356px) {
+  .main-wrapper .container section.top .tips-list ul li a, .main-wrapper .container section.features .tips-list ul li a, .main-wrapper .container section.tips .tips-list ul li a {
+    font-size: 1.3rem;
+  }
+}
 .main-wrapper .container section.top .tips-list ul li::before, .main-wrapper .container section.features .tips-list ul li::before, .main-wrapper .container section.tips .tips-list ul li::before {
-  content: url(/assets/img/icon\ -\ arrow-right.svg);
+  content: url(../img/icon\ -\ arrow-right.svg);
   vertical-align: middle;
   padding: 0 10px 0 0;
 }
