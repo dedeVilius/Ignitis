@@ -1,0 +1,166 @@
+.main-wrapper {
+    margin-top: 70px;
+    background-color: #ffffff;
+
+    & .container {
+        padding: 0 40px;
+
+        & .logo {
+            padding: 50px 0 30px 0;
+        }
+
+        & section {
+            padding: 40px 0;
+            border-top: 1px solid #F6F6F6;
+
+            &.top,
+            &.features,
+            &.tips {
+
+                & .thumbnail-image {
+                    padding: 0 0 40px 0;
+
+                    & img {
+                        width: 100%;
+                    }
+                }
+
+                & .title {
+
+                    & h1 {
+                        margin: 0;
+                        font-size: 2.1rem;
+                        line-height: 2.8rem;
+                        color: #172E62;
+                    }
+                }
+
+                & .description {
+
+                    & p {
+                        margin: 0;
+                        padding: 16px 0 33px 0;
+                        line-height: 2.4rem;
+                        color: #172E62;
+                    }
+                }
+
+                & a {
+                    color: #ffffff;
+                    text-decoration: none;
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                    display: inline-block;
+
+                    &.more-btn {
+                        padding: 15px 24px;
+                        background-color: #4057E3;
+                        border-radius: 6px;
+                    }
+                }
+
+                & .tips-list {
+
+                    & ul {
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+
+                        & li {
+                            font-weight: 600;
+                            padding: 0 0 15px 0;
+
+                            & a {
+                                font-size: 1.6rem;
+                                text-decoration: none;
+                                color: #4057E3;
+                            }
+
+                            &::before {
+                                content: url(/assets/img/icon\ -\ arrow-right.svg);
+                                vertical-align: middle;
+                                padding: 0 10px 0 0;
+                            }
+                        }
+
+                        & :last-child {
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+
+            &.tips {
+                
+                & .description {
+
+                    & p {
+                        padding: 16px 0 23px 0;
+                    }
+                }
+            }
+        }
+
+        & footer {
+            padding: 32px 0 40px 0;
+
+            & .content-wrapper {
+
+                & .text {
+
+                    & p {
+                        text-align: center;
+                        font-size: 1.4rem;
+                        line-height: 2.2rem;
+                        color: #172E62;
+                        margin: 0 0 25px 0;
+                    }
+                }
+
+                & .social-icons {
+                    text-align: center;
+
+                    & ul {
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+
+                        & li {
+                            display: inline-block;
+                            vertical-align: middle;
+                            padding-right: 12px;
+
+                            &:last-child {
+                                padding: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        & main {
+            
+            & section {
+
+                &:last-child {
+                    border-bottom: 1px solid #F6F6F6;
+                }
+            }
+        }
+    }
+}
+
+.note {
+    padding: 20px 40px 130px;
+
+    
+
+    & p {
+        text-align: center;
+        font-size: 1.3rem;
+        color: #B6BCCB;
+        line-height: 2rem;
+        margin: 0;
+    }
+}

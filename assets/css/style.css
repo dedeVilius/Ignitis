@@ -1,0 +1,127 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 640px;
+  margin: 0 auto;
+  background-color: #F4F5F7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+}
+
+.main-wrapper {
+  margin-top: 70px;
+  background-color: #ffffff;
+}
+.main-wrapper .container {
+  padding: 0 40px;
+}
+.main-wrapper .container .logo {
+  padding: 50px 0 30px 0;
+}
+.main-wrapper .container section {
+  padding: 40px 0;
+  border-top: 1px solid #F6F6F6;
+}
+.main-wrapper .container section.top .thumbnail-image, .main-wrapper .container section.features .thumbnail-image, .main-wrapper .container section.tips .thumbnail-image {
+  padding: 0 0 40px 0;
+}
+.main-wrapper .container section.top .thumbnail-image img, .main-wrapper .container section.features .thumbnail-image img, .main-wrapper .container section.tips .thumbnail-image img {
+  width: 100%;
+}
+.main-wrapper .container section.top .title h1, .main-wrapper .container section.features .title h1, .main-wrapper .container section.tips .title h1 {
+  margin: 0;
+  font-size: 2.1rem;
+  line-height: 2.8rem;
+  color: #172E62;
+}
+.main-wrapper .container section.top .description p, .main-wrapper .container section.features .description p, .main-wrapper .container section.tips .description p {
+  margin: 0;
+  padding: 16px 0 33px 0;
+  line-height: 2.4rem;
+  color: #172E62;
+}
+.main-wrapper .container section.top a, .main-wrapper .container section.features a, .main-wrapper .container section.tips a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+  display: inline-block;
+}
+.main-wrapper .container section.top a.more-btn, .main-wrapper .container section.features a.more-btn, .main-wrapper .container section.tips a.more-btn {
+  padding: 15px 24px;
+  background-color: #4057E3;
+  border-radius: 6px;
+}
+.main-wrapper .container section.top .tips-list ul, .main-wrapper .container section.features .tips-list ul, .main-wrapper .container section.tips .tips-list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.main-wrapper .container section.top .tips-list ul li, .main-wrapper .container section.features .tips-list ul li, .main-wrapper .container section.tips .tips-list ul li {
+  font-weight: 600;
+  padding: 0 0 15px 0;
+}
+.main-wrapper .container section.top .tips-list ul li a, .main-wrapper .container section.features .tips-list ul li a, .main-wrapper .container section.tips .tips-list ul li a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #4057E3;
+}
+.main-wrapper .container section.top .tips-list ul li::before, .main-wrapper .container section.features .tips-list ul li::before, .main-wrapper .container section.tips .tips-list ul li::before {
+  content: url(/assets/img/icon\ -\ arrow-right.svg);
+  vertical-align: middle;
+  padding: 0 10px 0 0;
+}
+.main-wrapper .container section.top .tips-list ul :last-child, .main-wrapper .container section.features .tips-list ul :last-child, .main-wrapper .container section.tips .tips-list ul :last-child {
+  padding: 0;
+}
+.main-wrapper .container section.tips .description p {
+  padding: 16px 0 23px 0;
+}
+.main-wrapper .container footer {
+  padding: 32px 0 40px 0;
+}
+.main-wrapper .container footer .content-wrapper .text p {
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  color: #172E62;
+  margin: 0 0 25px 0;
+}
+.main-wrapper .container footer .content-wrapper .social-icons {
+  text-align: center;
+}
+.main-wrapper .container footer .content-wrapper .social-icons ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.main-wrapper .container footer .content-wrapper .social-icons ul li {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 12px;
+}
+.main-wrapper .container footer .content-wrapper .social-icons ul li:last-child {
+  padding: 0;
+}
+.main-wrapper .container main section:last-child {
+  border-bottom: 1px solid #F6F6F6;
+}
+
+.note {
+  padding: 20px 40px 130px;
+}
+.note p {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #B6BCCB;
+  line-height: 2rem;
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */
